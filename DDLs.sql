@@ -46,3 +46,9 @@ ALTER TABLE materia ADD Teste VARCHAR (2);
 /* EXCLUIR COLUNA  */
 
 ALTER TABLE materia DROP COLUMN Teste;
+
+/* alterar dados */
+UPDATE aluno SET 
+Nome = 'Bruna Ribeiro' ,
+Idade = '21'
+WHERE IdAluno = 2;
