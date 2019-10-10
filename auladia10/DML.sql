@@ -1,0 +1,1 @@
+INSERT INTO MEMBROS(IdEmpregado, IdProjeto) VALUES (1, 3);
